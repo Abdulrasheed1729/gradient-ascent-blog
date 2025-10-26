@@ -9,7 +9,7 @@ const config: SiteConfig = {
   description:
     'A coder-ready Astro blog theme with 59 of your favorite color schemes to choose from',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Katy Kookaburra',
+  author: 'Abdulrasheed Fawole',
   // Keywords for SEO, used in the meta tags.
   tags: ['Astro', 'Terminal', 'Theme', 'MultiTerm', 'stelcodes'],
   // Path to the image used for generating social media previews.
@@ -168,7 +168,7 @@ const config: SiteConfig = {
   giscus: {
     repo: 'Abdulrasheed1729/gradient-ascent-blog',
     repoId: 'R_kgDOQJSCfw',
-    category: 'Announcements',
+    category: 'General',
     categoryId: 'DIC_kwDOQJSCf84CxE-Q',
     reactionsEnabled: true, // Enable reactions on post itself
   },
