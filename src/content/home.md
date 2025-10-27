@@ -1,8 +1,8 @@
 ---
 avatarImage:
-  src: './avatar.jpg'
+  src: './goofy.jpg'
   alt: 'My avatar'
 githubCalendar: 'stelcodes'
 ---
 
-Welcome to the example site. This site is meant to show off my custom Astro theme/template **MultiTerm** which creates a coder-ready blog complete with an interactive theme changer, RSS, sitemap, tagging, and markdown extensions.
+Hey there, and welcome to Local Maxima — my little peak on the internet! I’m climbing the steep, twisty hill of learning, exploring robotics, AI, and all the fascinating math that powers them. This blog is where I share the things I’m figuring out along the way — the small wins, the occasional plateaus, and the joy of getting a little less stuck each time. Grab your curiosity (and maybe a snack); we’re optimizing for growth, not perfection.

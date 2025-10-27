@@ -4,10 +4,9 @@ const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
   site: 'https://multiterm.stelclementine.com',
   // The name of your site, used in the title and for SEO.
-  title: 'Gradient Ascent Blog',
+  title: 'Local Maxima',
   // The description of your site, used for SEO and RSS feed.
-  description:
-    'A coder-ready Astro blog theme with 59 of your favorite color schemes to choose from',
+  description: 'Just trying not to get stuck',
   // The author of the site, used in the footer, SEO, and RSS feed.
   author: 'Abdulrasheed Fawole',
   // Keywords for SEO, used in the meta tags.
@@ -15,7 +14,7 @@ const config: SiteConfig = {
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
-  socialCardAvatarImage: './src/content/avatar.jpg',
+  socialCardAvatarImage: './src/content/goofy.jpg',
   // Font imported from @fontsource or elsewhere, used for the entire site.
   // To change this see src/styles/global.css and import a different font.
   font: 'JetBrains Mono Variable',
@@ -37,7 +36,7 @@ const config: SiteConfig = {
       url: '/about',
     },
     {
-      name: 'Archive',
+      name: 'Posts',
       url: '/posts',
     },
     {
@@ -152,11 +151,11 @@ const config: SiteConfig = {
   // Social links to display in the footer.
   socialLinks: {
     github: 'https://github.com/Abdulrasheed1729',
-    mastodon: 'https://github.com/stelcodes/multiterm-astro',
-    email: 'https://github.com/stelcodes/multiterm-astro',
-    linkedin: 'https://github.com/stelcodes/multiterm-astro',
-    bluesky: 'https://github.com/stelcodes/multiterm-astro',
-    twitter: 'https://github.com/stelcodes/multiterm-astro',
+    // mastodon: 'https://github.com/stelcodes/multiterm-astro',
+    email: 'fawomath@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/abdulrasheedfawole/',
+    // bluesky: 'https://github.com/stelcodes/multiterm-astro',
+    twitter: 'https://x.com/bolaji1729',
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
@@ -180,6 +179,8 @@ const config: SiteConfig = {
     owl: '/owl.webp',
     unicorn: '/unicorn.webp',
     duck: '/duck.webp',
+    cat: '/cat.webp',
+    scorpion: '/scorpion.webp',
   },
 }
 
