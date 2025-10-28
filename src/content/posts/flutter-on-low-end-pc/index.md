@@ -40,13 +40,14 @@ The Visual Studio Code is a lightweight code editor by Microsoft, which can be c
 
 You can also make use of [Emacs as your IDE for Flutter development](https://docs.flutter.dev/get-started/editor?tab=emacs) and if you are a Vim fan, you can check this Robert Brunhage's article on how to set up Vim for Flutter development [here](https://robertbrunhage.com/videos/how-to-setup-vim-for-flutter)
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/watch?v=-0RiAlOXGYs"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+  <iframe
+    src="https://www.youtube.com/embed/-0RiAlOXGYs"
+    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## 3. Use a physical mobile device instead of the Emulator
 
