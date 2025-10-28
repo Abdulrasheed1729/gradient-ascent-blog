@@ -40,6 +40,14 @@ The Visual Studio Code is a lightweight code editor by Microsoft, which can be c
 
 You can also make use of [Emacs as your IDE for Flutter development](https://docs.flutter.dev/get-started/editor?tab=emacs) and if you are a Vim fan, you can check this Robert Brunhage's article on how to set up Vim for Flutter development [here](https://robertbrunhage.com/videos/how-to-setup-vim-for-flutter)
 
+<iframe width="560" height="315"
+  src="https://www.youtube.com/watch?v=-0RiAlOXGYs"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
 ## 3. Use a physical mobile device instead of the Emulator
 
 Another resource consumer in mobile development is the Android emulator, as it takes more space in the RAM when being run. But there is a solution to that since there is an option of using a physical mobile device for running and debugging your app. To set up your mobile device for this, [enable USB debugging for your phone](https://www.makeuseof.com/tag/what-is-usb-debugging-mode-on-android-makeuseof-explains/).
