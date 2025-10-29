@@ -72,3 +72,56 @@ We are using mathematical symbols as a way to represent machines generally. Imag
 Consider the following figure
 
 ![A simple abstract finite automaton](./simple-abstract.jpg 'A simple abstract finite automaton')
+
+Let the machine in the above picture be $M_1$, we can see it has three states $q_1, q_2, q_3$ wuth different transitions between each states.
+
+:::note
+
+- The state with the double circle is called an _accept_ state.
+- The arrow from pointing towards $q_1$ is where the input is being passed and it shows that $q_1$ is the _start state_ (i.e where the machine $M_1$ start processing inputs.)
+  :::
+
+:::important
+The input for our machines are strings which are elements of $\{0, 1\}^n$
+:::
+
+Suppose we feed $M_1$ the string $10101$, then we would have the following sequence of processses:
+
+- Start at $q_1$
+- Read $1$ then transition to $q_2$
+- Read $0$ then transition from $q_2$ to $q_3$
+- Read $1$ then transition from $q_3$ to $q_2$
+- Read $0$ then transition from $q_2$ to $q_3$
+- Read $1$ then transition from $q_3$ to $q_2$
+- Accept, because $M_1$ is in an accept state.
+
+:::duck
+If the processing of an input in a machine stops in the accept state we say that the machine _accept_ the input else we say the machine _reject_ the input. Hence, the output from a machine is either _accept_ or _reject_.
+:::
+
+Now, we give a formal definition for a finite automaton.
+
+:::note
+A finite automaton is a 5-tuple $(Q, \Sigma, \delta, q_0, F)$, where
+
+- $Q$ is a finite set called states
+- $\Sigma$ is a finite set called the alphabet
+- $\delta : Q \times \Sigma \longrightarrow Q$ is the transition function
+- $q_0$ is the start state
+- $F \subseteq Q$ is the set of accept states
+  :::
+
+![A simple abstract finite automaton](./simple-abstract.jpg 'Machine $M_1$')
+In the case of $M_1$, we can write the following
+
+- $Q = \{ q_1, q_2, q_3\}$
+- $\Sigma = \{0, 1\} $
+- $\delta$
+
+|         | $0$   | $1$   |
+| ------- | ----- | ----- |
+| _$q_1$_ | $q_1$ | $q_1$ |
+| _$q_2$_ | $q_3$ | $q_2$ |
+| _$q_3$_ | $q_2$ | $q_2$ |
+
+- $F = \{q_2 \} $
