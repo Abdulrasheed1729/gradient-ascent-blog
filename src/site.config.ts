@@ -2,7 +2,7 @@ import type { SiteConfig } from '~/types'
 
 const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
-  site: 'https://local-maxima.github.io',
+  site: 'https://local-maxima.vercel.app',
   // The name of your site, used in the title and for SEO.
   title: 'Local Maxima',
   // The description of your site, used for SEO and RSS feed.
@@ -165,7 +165,7 @@ const config: SiteConfig = {
   // IMPORTANT: Update giscus.json in the root of the project with your own website URL
   // If you don't want to use Giscus, set this to undefined.
   giscus: {
-    repo: 'Abdulrasheed1729/gradient-ascent-blog',
+    repo: 'Abdulrasheed1729/local-maxima',
     repoId: 'R_kgDOQJSCfw',
     category: 'General',
     categoryId: 'DIC_kwDOQJSCf84CxE-Q',
