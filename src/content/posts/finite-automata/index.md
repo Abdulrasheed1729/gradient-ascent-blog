@@ -1,8 +1,8 @@
 ---
 title: 'Finite Automata'
-published: 2025-10-26
-draft: true
-tags: ['theory', 'computing']
+published: 2025-11-01
+draft: false
+tags: ['theory', 'computing', 'compilers']
 toc: true
 series: 'Turing Machines'
 coverImage:
